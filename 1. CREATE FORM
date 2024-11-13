@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Form Example</title>
+</head>
+<body>
+<form>
+<p>
+<label for="first_name">First Name: </label>
+<input type="text" id="first_name" name="first_name" required>
+</p>
+<p>
+<label for="last_name">Last Name: </label>
+<input type="text" id="last_name" name="last_name" required>
+</p>
+<p>
+<label for="username">User Name: </label>
+<input type="text" id="username" name="username" required>
+</p>
+<p>
+<label for="password">Password: </label>
+<input type="password" id="password" name="password" required>
+</p>
+<p>
+<label for="retype_password">Retype Password: </label>
+<input type="password" id="retype_password" name="retype_password" required>
+</p>
+<p>
+<label for="email">E-mail: </label>
+<input type="email" id="email" name="email" required>
+</p>
+<p>
+<label for="phone_no">Phone No: </label>
+<input type="tel" id="phone_no" name="phone_no" required>
+</p>
+<p>
+<label for="gender">Gender: </label>
+<input type="radio" id="male" name="gender" value="Male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="Female">
+<label for="female">Female</label>
+</p>
+<p>
+<label for="city">City: </label>
+<select id="city" name="city">
+<option value="chennai">Chennai</option>
+<option value="bangalore">Bangalore</option>
+<option value="mumbai">Mumbai</option>
+</select>
+</p>
+<p>
+<input type="submit" value="Submit">
+</p>
+</form>
+</body>
+</html>
